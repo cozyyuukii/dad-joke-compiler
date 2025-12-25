@@ -55,7 +55,7 @@ Just a browser and reckless confidence.
 ### :one: Clone the Repository
 
 ```bash
-git clone [https://github.com/cozyyuukii/dad-joke-compiler.git](https://github.com/cozyyuukii/dad-joke-compiler.git)
+git clone https://github.com/cozyyuukii/dad-joke-compiler.git
 
 ```
 
