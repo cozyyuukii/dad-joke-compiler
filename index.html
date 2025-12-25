@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <title>BitWise Games | Neuro-Linked Development Nexus</title>
+    <!-- External Assets -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Source+Code+Pro:wght@400;700&family=Silkscreen:wght@400;700&display=swap" rel="stylesheet">
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <canvas id="gridCanvas"></canvas>
+    
+    <nav class="pc-header">
+        <a href="#landing">[root@bitwise ~]#</a>
+        <a href="#about">./about_us.fun</a>
+        <a href="#progress">cat roadmap.lol</a>
+        <a href="#connect">ping -c ∞ socials</a>
+    </nav>
+
+    <section id="landing">
+        <h1 class="main-title" onclick="changeColor()">BitWise Games</h1>
+        <button class="glow-button" onclick="scrollToSection('about')">Initiate Protocol</button>
+    </section>
+
+    <section id="about">
+        <div class="about-container">
+            <div class="about-item">
+                <h2>🎮 Origin Story</h2>
+                <p>Born from a caffeine-fueled all-nighter in 2023, when two developers discovered they could convert pizza into code. Now we're 60% caffeine, 30% memes, and 10% actual productivity!</p>
+            </div>
+            <div class="about-item">
+                <h2>🧪 Lab Setup</h2>
+                <p>Our dev environment runs on Windows 95 nostalgia, 3D-printed action figures, and RGB lighting set to "productivity mode" (rapid color cycling). Warning: May cause spontaneous dance breaks.</p>
+            </div>
+            <div class="about-item">
+                <h2>🐍 Debug Squad</h2>
+                <p>Meet our QA team: Codezilla (the 1000-line function), Buggy McBugFace (permanent resident), and Ctrl-Alt-Defeat (our emotional support keyboard).</p>
+            </div>
+            <div class="about-item">
+                <h2>🚀 Feature Factory</h2>
+                <p>We produce features at lightspeed!* <br><small>*Actual speed may vary. Features sold separately. Batteries not included. May contain traces of side projects.</small></p>
+            </div>
+        </div>
+    </section>
+
+    <section id="progress">
+        <div class="cyber-terminal">
+            <div class="terminal-header">
+                <div class="traffic-lights">
+                    <span class="red"></span>
+                    <span class="yellow"></span>
+                    <span class="green"></span>
+                </div>
+                <div>bitwise_terminal </div>
+            </div>
+            <div class="terminal-content">
+                <p class="glow">$ sudo make game</p>
+                <p>> Compiling dad jokes... 
+                    <div class="progress-bar">
+                        <span style="width: 42%"></span>
+                    </div>
+                </p>
+                <p>> Current Project: <span class="glow">"Pizza Quest: Extra Cheese DLC"</span></p>
+                <p>> Development Stage: <span class="glow">Perpetual Beta</span> (now with 30% more chaos!)</p>
+                <p>> Completion: <span class="glow">3.14%</span> (Deliciously precise)</p>
+                <p>> Major Challenges: Cheese string physics, anti-gravity pepperoni</p>
+                <p>> Release Date: When we finish debugging reality</p>
+                <p id="randomStatus">> System Status: Teaching AI to appreciate memes</p>
+                <div class="legal-note">
+                    <ul>
+                        <li>Warning: May contain trace amounts of actual work</li>
+                        <li>All dates subject to timezone relativity</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="connect">
+        <form class="contact-form" id="contactForm" onsubmit="return handleSubmit(event)">
+            <h2>Emergency Meme Hotline</h2>
+            <input id="name" placeholder="Name:" type="text" required>
+            <input id="email" placeholder="Email:" type="email" required>
+            <textarea id="message" placeholder="Your message (max 420 characters)" rows="5" required></textarea>
+            <button type="submit" class="glow-button" id="submitBtn">Send Message</button>
+            <div id="formStatus"></div>
+        </form>
+        <div class="social-icons">
+            <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ" target="_blank" class="fab fa-github" title="Code Wonderland"></a>
+            <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ" target="_blank" class="fab fa-discord" title="Controlled Chaos Zone"></a>
+            <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ" target="_blank" class="fab fa-twitter" title="Meme Reactor"></a>
+            <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ" target="_blank" class="fas fa-pizza-slice" title="Dev Fuel Depot"></a>
+        </div>
+    </section>
+
+    <!-- Custom JS -->
+    <script src="script.js"></script>
+    
+</body>
+</html>
