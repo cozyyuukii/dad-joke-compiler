@@ -1,4 +1,5 @@
-# 🤖 Dad Joke Compiler | BitWise Games
+
+# :robot: Dad Joke Compiler | BitWise Games
 
 <p align="center">
   <b>"Compiling dad jokes and breaking production since 2023."</b>
@@ -12,7 +13,7 @@
 
 ---
 
-## 💾 System Overview
+## :floppy_disk: System Overview
 
 **Dad Joke Compiler** is the neuro-linked, slightly chaotic, and pizza-fueled home of **BitWise Games**.
 
@@ -20,60 +21,72 @@ It serves as a portfolio site wrapped in a neon cyberpunk terminal interface. Th
 
 ---
 
-## ✨ Features
+## :sparkles: Features
 
-- **Neon Chaos**  
-  High-contrast aesthetic with *Silkscreen* headers and *Source Code Pro* body text, glowing in neon blue `#00f3ff` and magenta `#ff00ff`.
+- **Neon Chaos** High-contrast aesthetic with *Silkscreen* headers and *Source Code Pro* body text, glowing in neon blue `#00f3ff` and magenta `#ff00ff`.
 
-- **Interactive Particle Grid**  
-  Custom HTML5 Canvas background reacting to mouse and touch, simulating a neuro-linked network.
+- **Interactive Particle Grid** Custom HTML5 Canvas background reacting to mouse and touch, simulating a neuro-linked network.
 
-- **Terminal Interface**  
-  Animated command-line with typing effects, scanlines, and fake system logs like:  
+- **Terminal Interface** Animated command-line with typing effects, scanlines, and fake system logs like:  
   *“Defragmenting dad jokes…”* and *“Downloading more RAM.”*
 
-- **RGB Mode**  
-  Click the **BitWise Games** title to cycle the entire site through random RGB themes.
+- **RGB Mode** Click the **BitWise Games** title to cycle the entire site through random RGB themes.
 
-- **Meme Hotline**  
-  A contact form that validates input and auto-generates a `mailto:` link so you can ship memes directly to the vault.
+- **Meme Hotline** A contact form that validates input and auto-generates a `mailto:` link so you can ship memes directly to the vault.
 
 ---
 
-## 🛠️ Tech Stack
+## :tools: Tech Stack
 
-| Component  | Technology                                           |
-|------------|------------------------------------------------------|
-| Structure  | Semantic HTML5                                       |
-| Style      | Pure CSS3 (Variables, Flexbox, Grid, Animations)     |
-| Logic      | Vanilla JavaScript (Canvas API, DOM Manipulation)    |
-| Fonts      | Source Code Pro & Silkscreen                         |
+| Component | Technology |
+| :--- | :--- |
+| **Structure** | Semantic HTML5 |
+| **Style** | Pure CSS3 (Variables, Flexbox, Grid, Animations) |
+| **Logic** | Vanilla JavaScript (Canvas API, DOM Manipulation) |
+| **Fonts** | Source Code Pro & Silkscreen |
 
 ---
 
-## 🚀 Getting Started
+## :rocket: Getting Started
 
 No compilers. No bundlers. No package managers.  
 Just a browser and reckless confidence.
 
-### 1️⃣ Clone the Repository
+### :one: Clone the Repository
 
 ```bash
-git clone https://github.com/cozyyuukii/dad-joke-compiler.git
-```
-### 2️⃣ Launch the Nexus
+git clone [https://github.com/cozyyuukii/dad-joke-compiler.git](https://github.com/cozyyuukii/dad-joke-compiler.git)
 
-Navigate into the folder and open index.html in your browser.
 ```
-📂 Project Structure
 
+### :two: Launch the Nexus
+
+Navigate into the folder and open `index.html` in your browser.
+
+```bash
+cd dad-joke-compiler
+# Double click index.html or open via VS Code Live Server
+
+```
+
+---
+
+## :open_file_folder: Project Structure
+
+```text
 /
 ├── index.html      # The mainframe (HTML structure)
 ├── style.css       # The neon paint (CSS styling)
 ├── script.js       # The hamsters running the wheel (JS logic)
 └── README.md       # This manual
-```
-📄 License
 
-This project is open source and released under the MIT License.
+```
+
+---
+
+## :page_facing_up: License
+
+This project is open source and released under the [MIT License](https://www.google.com/search?q=LICENSE).
+
+```
 
