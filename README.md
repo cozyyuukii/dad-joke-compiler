@@ -60,10 +60,11 @@ Just a browser and reckless confidence.
 
 ```bash
 git clone https://github.com/cozyyuukii/dad-joke-compiler.git
-
+```
 2️⃣ Launch the Nexus
 
 Navigate into the folder and open index.html in your browser.
+```
 📂 Project Structure
 
 /
@@ -71,7 +72,7 @@ Navigate into the folder and open index.html in your browser.
 ├── style.css       # The neon paint (CSS styling)
 ├── script.js       # The hamsters running the wheel (JS logic)
 └── README.md       # This manual
-
+```
 📄 License
 
 This project is open source and released under the MIT License.
