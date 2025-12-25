@@ -40,9 +40,9 @@ It serves as a portfolio site wrapped in a neon cyberpunk terminal interface. Th
 No compilers, no bundlers, no package managers needed—just a browser and a sense of humor.
 
 ### 1. Clone the Repository
-```bash
+```bash```
 git clone [https://github.com/cozyyuukii/dad-joke-compiler.git](https://github.com/cozyyuukii/dad-joke-compiler.git)
-```
+
 2. Launch the Nexus
 
 Simply navigate to the folder and open index.html in your favorite web browser.
