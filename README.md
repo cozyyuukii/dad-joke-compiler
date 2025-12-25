@@ -76,4 +76,4 @@ Navigate into the folder and open index.html in your browser.
 📄 License
 
 This project is open source and released under the MIT License.
-<p align="center"> System Status: <span style="color:#00ff88">ONLINE</span> 🟢 | Pizza Levels: <span style="color:#ff00ff">CRITICAL</span> 🍕 </p> 
+
