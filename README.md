@@ -36,7 +36,7 @@ It serves as a portfolio site wrapped in a neon cyberpunk terminal interface. Th
 
 ---
 
-## :tools: Tech Stack
+## 🛠️ Tech Stack
 
 | Component | Technology |
 | :--- | :--- |
