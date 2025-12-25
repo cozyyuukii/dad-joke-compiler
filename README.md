@@ -61,7 +61,7 @@ Just a browser and reckless confidence.
 ```bash
 git clone https://github.com/cozyyuukii/dad-joke-compiler.git
 ```
-2️⃣ Launch the Nexus
+### 2️⃣ Launch the Nexus
 
 Navigate into the folder and open index.html in your browser.
 ```
@@ -76,4 +76,4 @@ Navigate into the folder and open index.html in your browser.
 📄 License
 
 This project is open source and released under the MIT License.
-<p align="center"> System Status: <span style="color:#00ff88">ONLINE</span> 🟢 | Pizza Levels: <span style="color:#ff00ff">CRITICAL</span> 🍕 </p> ```
+<p align="center"> System Status: <span style="color:#00ff88">ONLINE</span> 🟢 | Pizza Levels: <span style="color:#ff00ff">CRITICAL</span> 🍕 </p> 
